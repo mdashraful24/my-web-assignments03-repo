@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +22,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'pri-color': '#ABEF5F',
+                        'pri-text': '#1C1C1C',
                     },
 
                     fontFamily: {
@@ -31,10 +34,75 @@
         }
     </script>
 </head>
+
 <body class="font-manrope">
+    <!-- Header -->
+    <header class="max-w-screen-xl mx-auto bg-gradient-to-r from-gray-400 to-gray-200">
+        <!-- Navbar section starts -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow  text-base font-normal">
+                            <li class="hover:text-pri-color duration-100 ease-in-out"><a
+                                    class="text-pri-color font-bold">Home</a></li>
+                            <li class="hover:text-pri-color duration-100 ease-in-out"><a>Services</a></li>
+                            <li class="hover:text-pri-color duration-100 ease-in-out"><a>Portfolio</a></li>
+                            <li class="hover:text-pri-color duration-100 ease-in-out"><a>Blogs</a></li>
+                            <li class="hover:text-pri-color duration-100 ease-in-out"><a>Contact Us</a></li>
+                            <li><i class="fa-solid fa-magnifying-glass text-search-icon block md:block"></i></li>
+                            <li><i class="fa-solid fa-cart-shopping text-search-icon block md:block"></i></li>
+                        </ul>
+                    </div>
+
+                    <a class="-ml-5" href="">
+                        <a class="bg-pri-color px-[5px] rounded-full"><i
+                                class="fa-solid fa-arrow-right -rotate-45 text-lg"></i></a>
+                        <h1 class="text-2xl font-extrabold ml-2">Rinterio
+                        </h1>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base font-normal">
+                        <li class="hover:text-pri-color duration-100 ease-in-out"><a
+                                class="text-pri-text font-bold">Home</a></li>
+                        <li class="hover:text-pri-color duration-100 ease-in-out"><a>Services</a></li>
+                        <li class="hover:text-pri-color duration-100 ease-in-out"><a>Portfolio</a></li>
+                        <li class="hover:text-pri-color duration-100 ease-in-out"><a>Blogs</a></li>
+                        <li class="hover:text-pri-color duration-100 ease-in-out"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-5">
+                    <div class="p-2 bg-pri-color rounded-full cursor-pointer hidden lg:block">
+                        <i class="fa-solid fa-magnifying-glass text-search-icon cursor-pointer hidden lg:block"></i>
+                    </div>
+                    <div class="py-1 px-2 bg-pri-color rounded-full hidden lg:block">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <button
+                        class="bg-pri-color from-orange-500 to-red-500 px-5 py-3 rounded-3xl text-pri-text font-bold hidden lg:block">Book
+                        Consult <span class="bg-pri-text px-[3px] rounded-full"><i
+                                class="fa-solid fa-arrow-right text-gray-300 -rotate-45 text-lg"></i></span></button>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 lg:hidden mr-5" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner section starts -->
+        <section></section>
+    </header>
+
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28"></main>
 
     <!-- Footer section -->
     <footer class="py-10 px-4 md:px-16"></footer>
 </body>
+
 </html>
