@@ -134,7 +134,7 @@
             <!-- Design Section Starts -->
             <section class="py-5 lg:py-16">
                 <div class="hero">
-                    <div class="hero-content flex-col-reverse gap-9 lg:flex-row-reverse">
+                    <div class="hero-content flex-col-reverse gap-10 lg:gap-16 lg:flex-row-reverse">
                         <img src="./assets/house1.png" class="max-w-sm rounded-lg" />
                         <div class="relative text-center lg:text-left">
                             <div class="absolute -top-14 -left-16 hidden lg:block">
@@ -184,7 +184,7 @@
             </section>
 
             <!-- Work Section Starts -->
-            <section class="max-w-screen-xl mx-auto px-5 mb-10">
+            <section class="max-w-screen-xl mx-auto px-5 mt-20 lg:px-36 mb-10">
                 <!-- Small text -->
                 <div class="flex flex-col justify-center items-center text-center">
                     <div class="w-36 px-2 py-1 rounded-full items-center font-bold bg-white mb-3">
@@ -194,7 +194,7 @@
                 <!-- Title -->
                 <div class="text-center mb-10">
                     <h1 class="text-4xl font-bold mb-4">Our Works Process</h1>
-                    <p class="text-gray-600 max-w-3xl mx-auto">The barn house captivates with its blend of rustic charm
+                    <p class="text-gray-700 max-w-3xl mx-auto">The barn house captivates with its blend of rustic charm
                         and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
                 <!-- Grid Cards -->
@@ -239,12 +239,73 @@
             </section>
             <br>
         </section>
+
+
+        <!-- Discuss Section Starts -->
+        <section class="bg-[url('/assets/bg.jpg')] bg-center bg-no-repeat bg-cover py-16 mt-20 mb-3">
+            <section class="max-w-screen-xl mx-auto px-5 mb-5">
+                <!-- Small text -->
+                <div class="flex flex-col justify-center items-center text-center">
+                    <div class="w-36 px-2 bg-lime-500 bg-opacity-20 font-extrabold py-1 rounded-full items-center mb-3">
+                        <p><i class="fa-solid fa-arrow-right"></i> Let’s Connect</p>
+                    </div>
+                </div>
+                <!-- Title -->
+                <div class="text-center mb-10">
+                    <h1 class="text-4xl font-bold mb-4">Let’s Discuss Next Project</h1>
+                    <p class="text-gray-800 font-semibold max-w-3xl mx-auto">The barn house captivates with its blend of rustic charm
+                        and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <!-- Grid Cards -->
+                <div class="grid grid-cols-1 place-items-center gap-6">
+                    <!-- Card-1 -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                        <div>
+                            <input type="text" name="" id="" placeholder="First Name*"
+                                class="w-[385px] font-semibold px-5 py-3 rounded-full">
+                        </div>
+                        <div>
+                            <input type="text" name="" id="" placeholder="Last Name*"
+                                class="w-[385px] font-semibold px-5 py-3 rounded-full">
+                        </div>
+                    </div>
+                    <!-- Card-2 -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                        <div>
+                            <input type="text" name="" id="" placeholder="Phone Number*"
+                                class="w-[385px] font-semibold px-5 py-3 rounded-full">
+                        </div>
+                        <div>
+                            <input type="email" name="" id="" placeholder="Email Number*"
+                                class="w-[385px] font-semibold px-5 py-3 rounded-full">
+                        </div>
+                    </div>
+                    <!-- Card-3 -->
+                    <div class="grid grid-cols-1">
+                        <textarea name="" id="" placeholder="Write your message here"
+                            class="w-[385px] lg:w-[785px] h-[180px] font-semibold rounded-2xl px-5 py-2"></textarea>
+                    </div>
+                    <!-- Button -->
+                    <button class="flex flex-row justify-center items-center bg-pri-color gap-1 px-32 lg:px-[330px] py-2 rounded-full">
+                        <div>
+                            <h3 class="text-xl text-pri-text font-bold">Send Mail</h3>
+                        </div>
+                        <div class="bg-pri-text px-[5px] rounded-full">
+                            <i class="fa-solid fa-arrow-right text-gray-300 -rotate-45"></i>
+                        </div>
+                    </button>
+                </div>
+                </div>
+            </section>
+        </section>
+
+
     </main>
 
     <!-- Footer section -->
     <footer>
         <section class="footer footer-center bg-black text-base-content p-10">
-            <div class="flex gap-3">
+            <div class="flex gap-1">
                 <div class="bg-pri-color px-[6px] rounded-full">
                     <i class="fa-solid fa-arrow-right text-pri-text -rotate-45 text-lg"></i>
                 </div>
@@ -253,7 +314,8 @@
                 </div>
             </div>
             <div class="text-gray-500 -mt-5">
-                <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br
+                    class="hidden lg:block"> featuring
                     weathered wood, sleek metal accents.</p>
             </div>
             <nav class="grid grid-flow-col gap-4 text-gray-300">
@@ -264,9 +326,10 @@
                 <a class="link link-hover">Contact Us</a>
             </nav>
             <div>
-                <button class="bg-lime-300 px-5 py-2 rounded-3xl text-pri-text font-bold">Book Consult <span
+                <button class="bg-lime-300 px-5 py-2 rounded-3xl text-pri-text font-bold"><span
+                        class="text-base font-extrabold mr-2">Book Consult</span><span
                         class="bg-pri-text px-[4px] py-[3px] rounded-full"><i
-                            class="fa-solid fa-arrow-right text-gray-100 -rotate-45 text-lg"></i>
+                            class="fa-solid fa-arrow-right text-gray-300 -rotate-45 text-lg"></i>
                     </span>
                 </button>
             </div>
