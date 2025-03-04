@@ -1,6 +1,6 @@
 # Rinterio - Interior Design Website
 
-This is a responsive interior design website built using **HTML**, **Tailwind CSS**, and **DaisyUI**. The website showcases modern interior design services, portfolios, and client testimonials. It is designed to be fully responsive and works seamlessly on all devices (desktop, tablet, and mobile).
+This responsive interior design website is built using **HTML**, **Tailwind CSS**, and **DaisyUI**. The website showcases modern interior design services, portfolios, and client testimonials. It is designed to be fully responsive and works seamlessly on all devices (desktop, tablet, and mobile).
 
 ## Features
 
@@ -28,8 +28,8 @@ This is a responsive interior design website built using **HTML**, **Tailwind CS
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/rinterio-interior-design.git
-   cd rinterio-interior-design
+   https://github.com/mdashraful24/my-web-assignments03-repo.git
+   cd my-web-assignments03-repo
    ```
 
 2. **Open the Project**:
@@ -75,4 +75,4 @@ rinterio-interior-design/
 
 ## Live Demo
 
-You can view the live demo of the website [here](#https://mdashraful24.github.io/my-web-assignments03-repo/) (replace with your deployment link).
+You can view the live demo of the website [here](#) (https://mdashraful24.github.io/my-web-assignments03-repo/).
