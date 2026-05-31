@@ -47,32 +47,11 @@ This responsive interior design website is built using **HTML**, **Tailwind CSS*
 ```
 rinterio-interior-design/
 ├── index.html
-├── assets/
-│   ├── bannerimg.png
-│   ├── house1.png
-│   ├── house2.png
-│   ├── commercial.png
-│   ├── residential.png
-│   ├── concept.png
-│   ├── vision.png
-│   ├── budget.png
-│   ├── img1.png
-│   ├── img2.png
-│   ├── img3.png
-│   ├── img4.png
-│   ├── img5.png
-│   ├── article1.png
-│   ├── article2.png
-│   ├── article3.png
-│   ├── client-1.png
-│   ├── client-2.png
-│   ├── client-3.png
-│   ├── back-img.jpg
-│   └── vector.png
+├── assets
 ├── README.md
 └── tailwind.config.js
 ```
 
 ## Live Demo
 
-You can view the live demo of the website [here](#) (https://mdashraful24.github.io/my-web-assignments03-repo/).
+You can view the live demo of the website [Rinterio](https://mdashraful24.github.io/my-web-assignments03-repo/).
